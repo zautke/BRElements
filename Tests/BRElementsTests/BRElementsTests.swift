@@ -1,6 +1,11 @@
 import Testing
 @testable import BRElements
 
-@Test func example() async throws {
-    // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+import XCTest
+@testable import BRElements
+
+final class BRElementsTests: XCTestCase {
+    func testExample() {
+        XCTAssertEqual(1 + 1, 2)
+    }
 }
